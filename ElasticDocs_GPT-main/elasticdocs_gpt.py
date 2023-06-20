@@ -17,10 +17,10 @@ from elasticsearch import Elasticsearch
 # cloud_id - Elastic Cloud Deployment ID
 # cloud_user - Elasticsearch Cluster User
 # cloud_pass - Elasticsearch User Password
-openai_api = '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'
-cloud_id = 'ElasticChat_GPT:ZXVyb3BlLXdlc3QzLmdjcC5jbG91ZC5lcy5pbzo0NDMkMjk1NWQ0N2Q2N2YxNDFiMTkzMDc5NDYxMDlkZGMzNWYkMTA5ODFhYzU0NTIwNGQ1Yjg1MmU4Y2Q3ZDA4ZDAxNjg='
-cloud_pass = 'oNQEhb13LoqjuRyN5QVicnmJ'
-cloud_user = 'elastic'
+# openai_api = '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'
+# cloud_id = 'ElasticChat_GPT:ZXVyb3BlLXdlc3QzLmdjcC5jbG91ZC5lcy5pbzo0NDMkMjk1NWQ0N2Q2N2YxNDFiMTkzMDc5NDYxMDlkZGMzNWYkMTA5ODFhYzU0NTIwNGQ1Yjg1MmU4Y2Q3ZDA4ZDAxNjg='
+#cloud_pass = 'oNQEhb13LoqjuRyN5QVicnmJ'
+# cloud_user = 'elastic'
 
 
 openai.api_key = os.environ['openai_api']
